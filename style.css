@@ -1,11 +1,16 @@
 body {
 	font-family: 'Roboto Slab', serif;
 	background-color: #1AD903;
+	position: relative;
+	padding-bottom: 19em ;
+	min-height: 100vh;
   }
   
   main {
 	text-align: center;
 	margin-top: 20px;
+	display: flex;
+	justify-content: flex-start;
 	
   }
   
@@ -43,9 +48,30 @@ body {
   .ul {
 	
   }
-  .footer {
-	background-color: #D91003;
-	padding: 20px;
-	width: 50px;
-	height: 20px;
+
+  .contenedor {
+	display: grid; /* Establece el contenedor como cuadrícula */
+	grid-template-columns: repeat(3, 1fr); /* Divide el contenedor en 3 columnas de ancho igual */
+	grid-gap: 10px; /* Opcional: Agrega espacios entre los elementos */
   }
+
+
+  footer {
+	background-color: #039FD9;
+	padding: 10px;
+	text-align: center;
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+  }
+  
+  footer {
+	background-color: #039FD9;
+	padding: 10px;
+	text-align: center;
+  }
+  
+  footer div {
+	font-size: 60px;
+	color: #D93003;
+	margin: 50px;
