@@ -1,22 +1,25 @@
 let elH1 = document.querySelector('h1');
-elH1.innerHTML = 'Administración de stock';
-elH1.style.color = '#F4702A';
-elH1.style.fontSize = '60px';
+//elH1.innerHTML = 'Administración de stock';
+//elH1.style.color = '#F4702A';
+//elH1.style.fontSize = '60px';
 
-console.log(elH1.innerHTML);
+console.log(elH1);//innerHTML);
 
 
 let navBar = document.querySelector('.nav-bar');
-navBar.onmouseover = function () {
 
-console.log('pasaste el mouse');
-}
 
-/*navBar.addEventListener('mouseover', function (){
+console.log(navBar);
+//navBar.onmouseover = function () {
+
+
+
+
+navBar.addEventListener('mouseover', function (){
 
    console.log('pasaste el mouse');
 
-});*/
+});
 
 let elImage = document.querySelector('.image');
 
@@ -34,3 +37,17 @@ let formGroup = document.querySelector('.form-group');
 
 console.log(formGroup);
 
+let elFooter = document.querySelector('.footer');
+
+console.log(elFooter);
+
+let redesSociales = document.querySelectorAll('.container-redes');
+
+console.log(redesSociales);
+
+let  elFinal = document.querySelector('.conteiner-final');
+
+console.log(elFinal);
+
+let  elContainerabout = document.querySelector('.container-about');
+console.log(elContainerabout);
