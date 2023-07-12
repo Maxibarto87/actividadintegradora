@@ -14,7 +14,8 @@
                 cl_Email<input type="email" name="cl_Email"><br><br>
                 cl_Direccion<input type="text" name="cl_Direccion"><br><br>
                 cl_CUIT<input type="number" name="cl_CUIT"><br><br>
-                cl_Telefono<input type="number" name="cl_Telefono"><br><br> 
+                cl_Telefono<input type="number" name="cl_Telefono"><br><br>
+                 
                 <input type="submit" value="enviar">
           </form>
      </div>

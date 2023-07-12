@@ -15,6 +15,7 @@
                 st_Categoria<input type="text" name="st_Categoria"><br><br>
                 st_Cantidad_total_en_existencia<input type="number" name="st_Cantidad_total_en_existencia"><br><br>
                 <input type="submit" value="enviar"><br><br>
+                
           </form>
      </div>
 </body>
